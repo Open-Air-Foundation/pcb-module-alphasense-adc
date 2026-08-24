@@ -1,0 +1,28 @@
+# KiCad temporary / cache files
+*.000
+*.bak
+*.bck
+*.kicad_pcb-bak
+*.kicad_sch-bak
+*.sch-bak
+*.kicad_pcb.lck
+~*.lck
+*~
+_autosave-*
+*.tmp
+fp-info-cache
+sym-lib-table
+
+# Netlist / autorouter exports
+*.net
+*.dsn
+*.ses
+
+# Backups
+**/*-backups/
+**/production/backups/
+
+# Editor / OS artifacts
+.history/
+.~lock.*#
+.DS_Store
